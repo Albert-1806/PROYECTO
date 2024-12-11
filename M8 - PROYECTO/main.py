@@ -162,8 +162,6 @@ async def hibridos(ctx):
 @bot.command()
 async def conclusion(ctx):
     embed = discord.Embed(
-        title="",
-        description="",
         color=0x002F5C
     )
     embed.add_field(name="En conclusión", value="Los paneles solares son una opción eficiente y sostenible para generar energía limpia, reducir costos y disminuir el impacto ambiental.Aquí te dejo algunas razones: Son energía renovable, tenemos ahorro económico, tienen bajo impacto ambiental y larga duración, entre miles más.", inline=False)
